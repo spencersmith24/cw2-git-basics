@@ -9,10 +9,17 @@ This is about the point where you'd start if you created the repository on GitHu
 
 ---
 ## Making changes
-Let's edit some code! There's a folder called “players,” and inside there’s some files. There's some code (players_viewer.py), and some data that that code pulls from (players.xml). Before you make any changes, make sure to update your working tree and local repository with `git pull`. You should get the message that you're already up-to-date. Edit the file _players.xml_ to include a tag with your name, following the syntax of the name(s) already there, e.g.
+Let's edit some code! There's a folder called “players,” and inside there’s some files. There's some code (players_viewer.py), and some data that that code pulls from (players.xml). Before you make any changes, make sure to update your working tree and local repository with `git pull`. You should get the message that you're already up-to-date. Edit the file _players.xml_ to include a tag with your name, following the syntax of the name(s) already there, e.g.,
 ```xml
 <player name="Your Name">Your GitHub username</player>
 ```
+… with child tags for your favorite things, following the format,
+```xml
+<favorite type="thing">Thing</favorite>
+<!-- such as… -->
+<favorite type="food">Pizza</favorite>
+```
+
 Save the file, and check your `git status`. If done correctly, you should see an output stating you have one edited file, players.xml.
 
 Stage the file with `git add`. Your `git status` should now show the file as staged.
