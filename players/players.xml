@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
 <root>
-    <player name="Melody">rokolinkon</player>
+    <player name="Melody">rokolinkon
+        <favorite type="food">Cincinnati Chili</favorite>
+        <favorite type="game">Pokémon</favorite>
+        <favorite type="show">Arcane</favorite>
+    </player>
 </root>
