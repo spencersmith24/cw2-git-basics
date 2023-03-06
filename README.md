@@ -41,4 +41,19 @@ Because you're the only one working on this fork of the repository, in order to 
 Now, make another change on remote, and before pulling, make a commit on your local repository _to a different file_. Now, when you use `git pull`, you'll need to make a _merge commit_—either set a commit message or leave the default one, save the file in the default text editor. Then, push that merge commit with `git push`.
 
 ## Resolving a merge conflict
-This time, make a commit on the remote repository to a file, then commit on your local machine to the same file. Then, try to `git pull`, and you should experience a _merge conflict_. Open the affected file in your text editor of choice, remove the lines added by Git and resolve the merge conflict as necessary, stage the file, commit, and push. Congratulations! You've resolved a merge conflict!
+This time, make a commit on the remote repository to a file, then commit on your local machine to the same file. 
+
+On GitHub, edit `players.xml` to add a child key under the `player` tag with `name="Melody"`:
+```xml
+<favorite type="operating system">macOS</favorite>
+```
+
+Then, on your local machine, without pulling first, add _another_ tag to Melody:
+```xml
+<favorite type="Pokémon">Nidorina</favorite>
+```
+
+Then, try to `git pull`, and you should experience a _merge conflict_. Open the affected file in your text editor of choice—you should see something like this:
+
+
+Resolve the merge conflict by just removing the lines that Git has added automatically—this will, effectively, since these are small edits, merge both of the changes together, remote _and_ local. Stage the file, commit, and push. Congratulations! You've resolved a merge conflict!
