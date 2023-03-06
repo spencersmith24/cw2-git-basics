@@ -19,6 +19,13 @@ Let's edit some code! There's a folder called “players,” and inside there’
 <!-- such as… -->
 <favorite type="food">Pizza</favorite>
 ```
+… so that it looks something like …
+```xml
+<player name="Melody">rokolinkon
+    <favorite type="food">Cincinnati Chili</favorite>
+    <favorite type="game">Pokémon</favorite>
+</player>
+```
 
 Save the file, and check your `git status`. If done correctly, you should see an output stating you have one edited file, players.xml.
 
