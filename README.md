@@ -53,7 +53,7 @@ Then, on your local machine, without pulling first, add _another_ tag to Melody:
 <favorite type="Pokémon">Nidorina</favorite>
 ```
 
-Then, try to `git pull`, and you should experience a _merge conflict_. Open the affected file in your text editor of choice—you should see something like this:
+Commit that, then try to `git pull`, and you should experience a _merge conflict_. Open the affected file in your text editor of choice—you should see something like this:
 
 
 Resolve the merge conflict by just removing the lines that Git has added automatically—this will, effectively, since these are small edits, merge both of the changes together, remote _and_ local. Stage the file, commit, and push. Congratulations! You've resolved a merge conflict!
