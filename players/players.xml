@@ -4,7 +4,5 @@
         <favorite type="food">Cincinnati Chili</favorite>
         <favorite type="game">Pokémon</favorite>
         <favorite type="show">Arcane</favorite>
-        <favorite type="Pokémon">Nidorina</favorite>
-        <favorite type="operating system">macOS</favorite>
     </player>
 </root>
