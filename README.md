@@ -57,3 +57,16 @@ Commit that, then try to `git pull`, and you should experience a _merge conflict
 ![image](https://user-images.githubusercontent.com/70546234/223152140-50b363e9-16cd-4168-866f-385c164105d7.png)
 
 Resolve the merge conflict by just removing the lines that Git has added automatically—this will, effectively, since these are small edits, merge both of the changes together, remote _and_ local. Stage the file, commit, and push. Congratulations! You've resolved a merge conflict!
+
+---
+## Ignoring files
+Suppose you want to edit this file now that you're done with the basics—add a file at the root of this repository called `.gitignore` and add two lines:
+```
+README.md
+.gitignore
+```
+Then save that file, and add your name into this box:
+```
+
+```
+Then, check your `git status`, and this file should be ignored!
