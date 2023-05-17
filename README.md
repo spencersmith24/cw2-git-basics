@@ -11,6 +11,12 @@ If you're here on the GitHub website without any idea what to do, don't fret —
 
 ![image](https://github.com/rokolinkon/cw2-git-basics/assets/70546234/e4809fa0-a303-4e00-85da-8b5938500e1e)
 
+Then, after you're finished with that, you'll have a repository of your own by the same name, which you can find at `your-github-username/cw2-git-basics`. Now you have the URL you’ll need to clone the repository! You can do that with the command…
+
+```bash
+git clone https://github.com/your-github-username/cw2-git-basics
+```
+Simple, right? Now we can begin!
 
 ---
 ## Making changes
