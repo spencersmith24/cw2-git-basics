@@ -49,7 +49,7 @@ Push that commit upstream with `git push`!
 ## Staying up-to-date
 Because you're the only one working on this fork of the repository, in order to pull changes from remote, you'll need to manually make some changes on the remote repository. Luckily, you can edit files manually on GitHub by navigating to the file and clicking the pencil button in the top right of the view pane, or using _vscode.dev_ by pressing the period key on your keyboard while viewing the file. Make any arbitrary edit, commit it, and then use `git pull` on your local machine to update it, verifying that the change now exists on your local files!
 
-Now, make another change on remote, and before pulling, make a commit on your local repository _to a different file_. Now, when you use `git pull`, you'll need to make a _merge commit_—either set a commit message or leave the default one, save the file in the default text editor. Then, push that merge commit with `git push`.
+Now, make another change on remote, and before pulling, make a commit on your local repository _to a different file_. Now, when you use `git pull`, you'll need to make a _merge commit_—either set a commit message or leave the default one and save the file in the default text editor. Then, push that merge commit with `git push`.
 
 ## Resolving a merge conflict
 This time, make a commit on the remote repository to a file, then commit on your local machine to the same file. 
