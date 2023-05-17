@@ -7,6 +7,10 @@ Welcome! Since you're cloning this repository from a remote, there's a few steps
 
 This is about the point where you'd start if you created the repository on GitHub and cloned it down to your local machine. However, this repository isn't empty—there have been some commits already made and there are already some files here. To view the commits that have already been made to this repository (including to this file), use `git log`.
 
+If you're here on the GitHub website without any idea what to do, don't fret — your job is to create a _fork_ of this repository and then _clone_ that forked repository onto your local machine. You can fork this repository on the page you’re probably already on by clicking _Fork_ in the top-right corner.
+
+
+
 ---
 ## Making changes
 Let's edit some code! There's a folder called “players,” and inside there’s some files. There's some code (players_viewer.py), and some data that that code pulls from (players.xml). Before you make any changes, make sure to update your working tree and local repository with `git pull`. You should get the message that you're already up-to-date. Edit the file _players.xml_ to include a tag with your name, following the syntax of the name(s) already there, e.g.,
