@@ -9,6 +9,7 @@ This is about the point where you'd start if you created the repository on GitHu
 
 If you're here on the GitHub website without any idea what to do, don't fret — your job is to create a _fork_ of this repository and then _clone_ that forked repository onto your local machine. You can fork this repository on the page you’re probably already on by clicking _Fork_ in the top-right corner.
 
+![image](https://github.com/rokolinkon/cw2-git-basics/assets/70546234/e4809fa0-a303-4e00-85da-8b5938500e1e)
 
 
 ---
