@@ -5,4 +5,10 @@
         <favorite type="game">Pokémon</favorite>
         <favorite type="show">Arcane</favorite>
     </player>
+
+    <player name = "Spencer">spencersmith24
+        <favorite type="color">Red</favorite>
+        <favorite type="book">Lord of the Rings</favorite>
+        <favorite type="band">Van Halen</favorite>
+    </player>
 </root>
