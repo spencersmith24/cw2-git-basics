@@ -7,7 +7,7 @@
     </player>
 
     <player name = "Spencer">spencersmith24
-        <favorite type="color">Grey</favorite>
+        <favorite type="color">Gray</favorite>
         <favorite type="book">Lord of the Rings</favorite>
         <favorite type="band">Van Halen</favorite>
     </player>
