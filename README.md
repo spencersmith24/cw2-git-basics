@@ -78,6 +78,6 @@ README.md
 ```
 Then save that file, and add your name into this box:
 ```
-spencer
+
 ```
 Then, check your `git status`, and this file should be ignored!
